@@ -1,0 +1,71 @@
+.cabecalho__menu-hamburguer{
+    width: 24px;
+    height: 24px;
+    background-image: url(../assets/Menu.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    display: inline-block;
+
+}
+.cabecalho{
+    background-color: var(#FFFFFF);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+.container{
+    display: flex;
+    align-items: center;
+}
+.container__img{
+    padding: 1em;
+}
+.lista-menu{
+    display: none;
+    position: absolute;
+    top: 100%;
+    width:60vw;
+}
+.cabecalho__botao:checked~.lista-menu{
+    display: block;
+
+}
+.lista-menu__titulo, .lista-menu__item{
+    padding: 1em;
+    background-color: var(--branco);
+
+}
+.lista-menu__titulo{
+    color: var(--laranja);
+    font-weight: 700;
+}
+.lista-menu__link{
+    text-decoration: none;
+    background: var(--degrade);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-transform: uppercase;
+}
+.cabecalho__botao{
+    display: none;
+}
+.banner__pesquisa{
+    background-color: transparent;
+    border: 1px solid var(--branco);
+    color: var(--branco);
+    border-radius: 24px;
+    padding: 1em;
+    width: 100%;
+}
+.banner__pesquisa::placeholder{
+    font-family: var(--font-principal);
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    color: var(--branco);
+    background: url(../assets/Lupa.svg) no-repeat;
+    
+}
+

@@ -1,0 +1,35 @@
+.topicos{
+    background-color: var(--azul);
+    text-align: center;
+    padding: 1em 0;
+}
+.topicos__titulo{
+    text-align: center;
+    margin-bottom: 1em;
+
+}
+
+.topicos__titulo{
+    color: var(--branco);
+    font-size: 16px;
+    font-family: var(--fonte-principal);
+    font-weight: 300;
+    padding: 1em;
+}
+.topicos-menu{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-decoration: none;
+}
+.topicos__item{
+    margin: 2em 0.5em;
+}
+.botoes__rodape{
+    text-decoration: none;
+    background-color: var(--laranja);
+    font-size: 14px;
+    font-weight: 700;
+    color: var(--branco);
+    padding: 1em;
+}

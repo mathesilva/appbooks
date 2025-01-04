@@ -1,0 +1,15 @@
+.banner{
+    background: var(--degrade);
+    color: var(--branco);
+    text-align: center;
+    padding: 2em 2em;
+}
+.banner__titulo{
+    font-size: 18px;
+    font-weight: 800;
+
+}
+.banner__texto{
+    font-weight: 500;
+    margin: 1em 0;
+}
